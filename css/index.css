@@ -1,0 +1,67 @@
+body{
+  box-sizing: border-box;
+}
+
+header{
+  height: 100vh;
+  background-image: url("../image/sylvan-grove-background.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: auto;
+}
+
+h2{
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-content: center;;
+}
+
+.div-background{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(255, 255, 255, .8);
+  padding: 10px 0px;
+  width: 70%;
+  margin-top: 275px;
+
+  
+}
+
+.image-size{
+  height: auto;
+  width: 20%;
+}
+
+.h1-size{
+  font-size: 4rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.footer-p{
+  margin-left: 50px;
+}
+
+@media (min-width: 769px){
+  .div-background{
+    margin-top: 300px;
+    padding: 40px 0px;
+  }
+}
+
+@media (min-width: 1025px){
+  header{
+    background-position: 0% 40%;
+  }
+
+  .div-background{
+    margin-top: 350px;
+    padding: 40px 0px;
+  }
+}
